@@ -30,6 +30,6 @@ Run the following curl command to see the results:
 
 `curl -H "Content-Type: application/json" -X POST -d '{"model": "Duster 360", "cyl": 8, "disp": 360, "hp": 245, "drat": 3.21, "wt": 3.57, "qsec": 15.84, "vs": 0, "am": 0, "gear": 3, "carb": 4}' "http://localhost:5000/pred_mpg"`
 
-The result should output about 17.75 mpg
+The result should output about 15.75 mpg
 
 To stop your server running the API, type `ctrl-C`. As usual, check to see if you have any docker containers running using `docker container ls` and stop them through `docker container kill <container-name>`
